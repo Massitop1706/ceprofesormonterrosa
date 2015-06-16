@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plantilla basica de Bootstrap en español</title>
+<!-- CSS de Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<ul class="nav nav-pills">
+    <li class="dropdown"><a href="#">Inicio</a></li>
+    <li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Institucional <b class="caret"></b></a>
+      <ul class="dropdown-menu" id="menu1">
+        <li><a href="#">Misión y Visión</a></li>
+        <li><a href="#">Valores</a></li>
+        <li><a href="#">Ideario</a></li>
+        <li><a href="#">Oferta Académica</a></li>
+        <li><a href="#">Mensaje del Director</a></li>
+        <li><a href="#">Historia de la Institución</a></li>
+        <li><a href="#">Marco Legal</a></li>
+        <li><a href="#">Organigrama</a></li>
+        <li><a href="#">Manual de Convivencia</a></li>
+        <li><a href="#">Biblioteca</a></li>
+        <li><a href="#">Galería de videos</a></li>
+      </ul>
+    </li>
+	<li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Personal <b class="caret"></b></a>
+      <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+        <li><a href="#">Misión y Visión</a></li>
+        <li><a href="#">Valores</a></li>
+        <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Consejo Directivo Escolar</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Funciones del CDE</a></li>
+                  <li><a href="#">Integrantes del CDE</a></li>
+                </ul>
+        </li>
+      </ul>
+    </li>
+	<li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Proyectos <b class="caret"></b></a>
+      <ul class="dropdown-menu" id="menu1">
+        <li><a href="#">Escuela de Padres y Madres</a></li>
+        <li><a href="#">Prevencion de Desastres</a></li>
+        <li><a href="#">Recreos Dirigidos</a></li>
+      </ul>
+    </li>
+	<li class="dropdown">
+      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Contáctenos <b class="caret"></b></a>
+      <ul class="dropdown-menu" id="menu1">
+        <li><a href="#">Dirección</a></li>
+        <li><a href="#">Ubicación Geográfica</a></li>
+      </ul>
+    </li>
+</ul>
+<!-- Librería jQuery requerida por los plugins de JavaScript -->
+<script src="js/jquery.min.js"></script>
+<!-- Todos los plugins JavaScript de Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
