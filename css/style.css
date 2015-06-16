@@ -3,7 +3,7 @@
 	margin-top: 51px;
 }
 .panel-group .panel + .panel {
-	margin-top: 50px !important;
+	/*margin-top: 50px !important;*/
 }
 #footer{
 	background-color: #186845;
