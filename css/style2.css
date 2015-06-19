@@ -1,0 +1,56 @@
+.panel-default > .panel-heading {
+	background-color: #000 !important;
+}
+.panel-heading {
+	  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.panel-default {
+	border-color: #000 !important;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	background-color: #000 !important;
+}
+.post{
+	
+	margin-top: 51px;
+}
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:90px;
+   width:100%;
+   background:#999;
+   	z-index: 10000;
+	background-color: #186845;
+	color: #fff;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+/*#footer{
+
+	margin-bottom: 0px;
+	z-index: 10000;
+	background-color: #186845;
+	color: #fff;
+}*/
+body{
+	background-color: #49A07A;
+}
+.left-menu{
+	/*background-color: #79B7C8;*/
+	margin-top: 71px;
+	max-width: 300px;
+}
+.panel-heading{
+	/*background-color:#8EBBC8 !important; */
+}
+/*.fotos{
+  color: #000 !important;
+}*/
